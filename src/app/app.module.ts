@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { ViewchildComponent } from './viewchild/viewchild.component';
 import { SubViewchildComponent } from './viewchild/sub-viewchild/sub-viewchild.component';
+import { StyleDirective } from './style.directive';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -14,6 +15,7 @@ import { SubViewchildComponent } from './viewchild/sub-viewchild/sub-viewchild.c
     HelloComponent,
     ViewchildComponent,
     SubViewchildComponent,
+    StyleDirective,
   ],
   bootstrap: [AppComponent],
 })
